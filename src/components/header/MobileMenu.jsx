@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+import {} from '../components/ActionUser.jsx';
 import './Header.css';
  
 export const MobileMenu = () => {
@@ -13,6 +14,9 @@ export const MobileMenu = () => {
             </li>
             <li>
                 <NavLink className="link" to="/Categorias">Categorias</NavLink>
+            </li>
+            <li>
+             <ActionUser/>
             </li>
         </ul> 
     )
