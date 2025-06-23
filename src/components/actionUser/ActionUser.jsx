@@ -11,11 +11,16 @@ const Container = styles.div`
 		@media(max-width: 768px){
 			align-items: center;
 			justify-content: start;
+			border-top: 1px solid gray;
+			width:fit-content;
+			margin-top: 8rem;
 		}
 `;
 
 const ItemLink = styles.span`
-	text-decoration:underline;
+	text-decoration:underline; 
+	display:block;
+	white-space: nowrap;
 `;
 
 const ItemBtn = styles.button`
