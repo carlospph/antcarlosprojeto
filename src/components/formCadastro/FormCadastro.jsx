@@ -1,6 +1,6 @@
 import "./FormCadastro.css";
 import { useState } from "react";
-import imagem from "./imagem__tela__login.png";
+import imagem from "/imagem__tela__login.png";
 
 const FormCadastro = () => {
   const [nome, setNome] = useState("");
