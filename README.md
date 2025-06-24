@@ -1,4 +1,4 @@
-### Aplicação feita pela IDE Online Codesandbox
+### Aplicação feita em REACT
 
 # React + Vite
 
